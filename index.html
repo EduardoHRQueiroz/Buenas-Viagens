@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta author="Eduardo Henrique Rebouças Queiroz">
+    <meta description="Website de viagens">
+    <meta keybords="html, css, javascript, website, site, responsivo, viagem, turismo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buenas Viagens</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <section class="introducao banner-default">
+
+            <header id="cabecalho">
+                <a href="#cabecalho" class="header-logo a-unset">Buenas Viagens!</a>
+                <ul class="nav-itens ul-unset">
+                    <li><a class="nav-item a-unset" href="#">Home</a></li>
+                    <li><a class="nav-item a-unset" href="#">Passeios</a></li>
+                    <li><a class="nav-item a-unset" href="#">Destinos</a></li>
+                    <li><a class="nav-item a-unset" href="#">Avaliações</a></li>
+                </ul>
+            </header>
+
+            <div class="introducao-content">
+                <h1>EXPLORE O MUNDO!</h1>
+            </div>
+
+            <div class="introducao-schedule">
+                <div class="schedule-box">
+                    <form class="form-inputs">
+                        <div class="form-box">
+                            <label for="lugar">Para onde vamos?</label>
+                            <input type="text" name="lugar" id="lugar" class="form-box__input" required>
+                        </div>
+                        <div class="form-box">
+                            <label for="quando">Quando?</label>
+                            <input type="date" name="quando" id="quando" class="form-box__input datepicker" required>
+                        </div>
+                        <div class="form-box">
+                            <label for="retorno">Retorno</label>
+                            <input type="date" name="retorno" id="retorno" class="form-box__input datepicker" required>
+                        </div>
+                        <button class="btn btn-primary btn-lg btn-form">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="apresentacao">
+            <div class="apresentacao-content d-flex f-column">
+                <h2>Próximos Passeios & Destinos</h2>
+                <img src="./assets/img/Line.png" alt="">
+                <p>Eligendi, unde neque libero, ab officia laboriosam alias consequuntur laborum eveniet ipsa ex! Rerum
+                    architecto dolorum totam quae, magni minima at vero quas voluptas laboriosam autem accusamus nulla
+                    eaque officia ipsum distinctio, et inventore facilis vitae consequatur quod omnis voluptates ipsa?
+                    Libero inventore dolores necessitatibus omnis voluptate. Sit, officia accusantium consequatur
+                    commodi eum deleniti et dolores deserunt accusamus cupiditate animi recusandae assumenda. Similique,
+                    eveniet.</p>
+                <button class="btn btn-primary btn-md">Saiba mais</button>
+            </div>
+
+            <div class="apresentacao-gallery">
+                <img src="./assets/img/travel01.png" alt="" class="g-justify-end box-shadow">
+                <img src="./assets/img/travel02.png" alt="" class="box-shadow">
+                <img src="./assets/img/travel03.png" alt="" class="g-justify-end box-shadow">
+                <img src="./assets/img/travel04.png" alt="" class="box-shadow">
+            </div>
+        </section>
+
+        <section class="lugares">
+            <h2>Para onde você quer viajar?</h2>
+            <ul class="ul-unset">
+
+                <li class="card">
+                    <div class="card-image">
+                        <img src="./assets/img/Milan-pic.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="content-title"><b class="content-title-bold">Barcelona,</b> Espanha</p>
+                        <p class="description">Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium
+                            ducimus ipsam temporibus.</p>
+
+                        <div class="buy-infos">
+                            <div class="prices">
+                                <p>R$ 3.900,00</p>
+                                <span>R$ 4.400,00</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm btn-buy">Saiba mais</button>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="card">
+                    <div class="card-image">
+                        <img src="./assets/img/porto.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="content-title"><b class="content-title-bold">Porto,</b> Portugal</p>
+                        <p class="description">Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium
+                            ducimus ipsam temporibus.</p>
+
+                        <div class="buy-infos">
+                            <div class="prices">
+                                <p>R$ 3.700,00</p>
+                                <span>R$ 4.300,00</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm btn-buy">Saiba mais</button>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="card">
+                    <div class="card-image">
+                        <img src="./assets/img/milao.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="content-title"><b class="content-title-bold">Milão,</b> Itália</p>
+                        <p class="description">Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium
+                            ducimus ipsam temporibus.</p>
+
+                        <div class="buy-infos">
+                            <div class="prices">
+                                <p>R$ 3.500,00</p>
+                                <span>R$ 4.200,00</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm btn-buy">Saiba mais</button>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="card">
+                    <div class="card-image">
+                        <img src="./assets/img/londres.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="content-title"><b class="content-title-bold">Londres,</b> Inglaterra</p>
+                        <p class="description">Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium
+                            ducimus ipsam temporibus.</p>
+
+                        <div class="buy-infos">
+                            <div class="prices">
+                                <p>R$ 4.200,00</p>
+                                <span>R$ 4.900,00</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm btn-buy">Saiba mais</button>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="card">
+                    <div class="card-image">
+                        <img src="./assets/img/suica.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="content-title"><b class="content-title-bold">Lauterbrunnen,</b> Suiça</p>
+                        <p class="description">Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium
+                            ducimus ipsam temporibus.</p>
+
+                        <div class="buy-infos">
+                            <div class="prices">
+                                <p>R$ 3.900,00</p>
+                                <span>R$ 4.300,00</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm btn-buy">Saiba mais</button>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="card">
+                    <div class="card-image">
+                        <img src="./assets/img/paris.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="content-title"><b class="content-title-bold">Paris,</b> França</p>
+                        <p class="description">Pariatur autem harum ratione eveniet porro quidem distinctio, laudantium
+                            ducimus ipsam temporibus.</p>
+
+                        <div class="buy-infos">
+                            <div class="prices">
+                                <p>R$ 4.500,00</p>
+                                <span>R$ 5.300,00</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm btn-buy">Saiba mais</button>
+                        </div>
+
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="depoimento">
+            <h2>Avaliações dos Clientes</h2>
+            <p>“Facilis nemo molestias eum eligendi assumenda consequuntur, alias cumque fugit tenetur laudantium in
+                dolores delectus temporibus magni quae est quaerat, deleniti repellat provident veniam reiciendis atque
+                neque! Optio eaque eveniet accusantium nesciunt omnis eum quidem sint odio molestiae dolore est aut
+                laborum laudantium voluptates, rerum, architecto et.”</p>
+            <div class="slider">
+                <button><</button>
+                        <div class="slider-cliente">
+                            <img src="./assets/img/patricia.png" alt="">
+                            <p>Patrícia, <span>Jornalista</span></p>
+                        </div>
+                        <button>></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-direitos">
+            <h2>Buenas Viagens!</h2>
+            <div class="footer-direitos_local">
+                <p class="local-title">Buenas Viagens & Turismo S.A.</p>
+                <p>Avenida da Boa Vista, 1234 Porto, Portugal</p>
+            </div>
+            <p>Buenas Viagens & Turismo S.A. © Todos os
+                direitos reservados 2024</p>
+        </div>
+
+        <div class="footer-parceiros">
+            <h2>Nossos Parceiros</h2>
+            <ul class="ul-unset">
+                <li><a href="#" class="a-unset">consectetur adipisicing</a></li>
+                <li><a href="#" class="a-unset">Pariatur autem harum</a></li>
+                <li><a href="#" class="a-unset">distinctio laudantium ducimus</a></li>
+                <li><a href="#" class="a-unset">temporibus vel magnam</a></li>
+                <li><a href="#" class="a-unset">commodi sed quaerat</a></li>
+                <li><a href="#" class="a-unset">Quas perspiciatis blanditiis</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-redes">
+            <div class="footer-redes__newsletter">
+                <label for="newsletter">Assine a nossa newsletter</label>
+                <div class="newsletter-input">
+                    <input placeholder="Informe seu E-mail" type="text" id="newsletter">
+                    <button class="btn-newsletter" type="submit">Enviar</button>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="footer-redes-redesSociais">
+                <h2>siga nossas redes sociais</h2>
+                <div class="redes-sociais">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-purple"></div>
+
+</body>
+</html>
